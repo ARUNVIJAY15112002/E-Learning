@@ -1,0 +1,104 @@
+.login-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#00A7F8;
+    min-height: 100vh;
+    max-height: 150vh;
+    align-items: center;
+}
+
+@media screen and (min-width:576px)
+{
+    .login-container
+{
+    justify-content: flex-start;
+}
+
+}
+.create-account
+{
+    color: white;
+    font-family:roboto;
+    font-size:37px;
+}
+.form-container
+{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 80%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+@media screen and (min-width:576px){
+.form-container
+{
+width: 40%;
+margin-top: -25px;
+}   
+}
+
+.img-login
+{
+    
+    height: 370px;
+    margin-bottom: 10px ;
+    width: 100%;
+}
+
+.submit-form
+{
+    background-color: #3B4856;
+    color:white;
+    padding: 10px;
+    height: 34  px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 0px;
+    font-size: 15px;
+    width: 140px;
+    margin-top: 10px;
+    margin: 5px;
+}
+
+.err-msg
+{
+    color:red;
+    align-self: flex-start;
+    margin-left: 2px;
+    font-weight: 400;
+}
+
+.ip-style-login
+{
+    width: 100%;
+    margin-top: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    height: 80px;
+    border: 1px solid #3B4856;
+    padding: 5px;
+    color:#3B4856;
+}
+
+.btn-container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+@media screen and (min-width:576px)
+{
+    .create-account
+    {
+        font-size: 50px;
+    }
+}

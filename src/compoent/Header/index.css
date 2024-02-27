@@ -1,0 +1,96 @@
+    .profile-img
+    {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        
+    }
+
+    .nav-container
+    {
+        background-color:#00A7F8;
+        width: 95.4vw;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center ;
+        padding: 10px;
+    }
+
+    @media screen and (min-width:576px) {
+        .nav-container
+        {
+            width: 98.7vw;
+        }
+
+        
+        
+    }
+
+    .img-logo-header
+    {
+        height: 68px;
+        width: 110px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    @media screen and (min-width:576px)
+    {
+        .img-logo-header
+        {
+            height: 78px;
+            width: 120px;
+
+        }
+
+    }
+
+    .logout-button
+    {
+        background-color: #ffff;
+        color: black;
+        cursor: pointer;
+        margin-right:70px;
+        border-width:0px;
+        border-radius: 3px;
+        height: 35px;
+        width: 80px;
+        display:none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .nav-card-2
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .lg-btn
+    {
+        background-color: transparent;
+        border-width: 0px;
+        display:flex;
+    }
+
+
+    @media screen and (min-width:576px) {
+
+    .lg-btn
+    {
+        display:none;
+    }
+    .logout-button
+    {
+        display: flex;
+    }
+
+    }
