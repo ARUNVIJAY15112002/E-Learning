@@ -2,6 +2,7 @@ import {Component} from "react"
 import Cookies from "js-cookie"
 
 import "./index.css"
+import { Redirect } from "react-router-dom/cjs/react-router-dom.min"
 
 
       
@@ -62,7 +63,9 @@ class Login extends Component
     render()
     {
         const {errorMsg1,errorMsg2}=this.state
+      
         return(
+            <>
             <div className="login-container">
                 <form className="form-container" onSubmit={this.getDetails}>
                 <h1 className="create-account">Please Login</h1>
@@ -79,7 +82,13 @@ class Login extends Component
                 </form>
                
             </div>
+            </>
         )
+      
+    
+    
+            
+
     }
 }
 

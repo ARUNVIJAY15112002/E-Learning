@@ -22,6 +22,7 @@
     color: white;
     font-family:roboto;
     font-size:37px;
+    font-family: roboto;
 }
 .form-container
 {
@@ -29,6 +30,7 @@
     flex-direction: column;
     height: 60vh;
     width: 80%;
+    font-family: roboto;
     align-items: center;
     margin-top: 10px;
 }
@@ -52,6 +54,7 @@ margin-top: -25px;
 .submit-form
 {
     background-color: #3B4856;
+    font-family: roboto;
     color:white;
     padding: 10px;
     height: 34  px;
